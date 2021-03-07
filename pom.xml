@@ -56,12 +56,12 @@
 	<repository>
 		<id>deployment</id> <!-- this ID should match with server id which we configure in settings.xml file. -->
 		<name>deployment</name>
-		<url>http://3.236.237.196:8081/nexus/content/repositories/deployment/</url>
+		<url>http://192.168.56.4:8081/repository/deployment/</url>
 	</repository>
 	<snapshotRepository>
 		<id>deployment</id>
 		<name>Snapshots</name>
-		<url>http://3.236.237.196/:8081/nexus/content/repositories/snapshots/</url>
+		<url>http://192.168.56.4:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement>
 </project>
